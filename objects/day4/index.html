@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>routine</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>
+    
+    <div class="grid-container">
+      <div class="start">
+        <img class="starting" src="sleeping.png">
+        <div class="text">Click battery</div>
+        <div class="wake">
+          <video>
+            <source src="wake_up.mp4" type="video/mp4"/>
+          </video>
+        </div>
+        <div class="wear">
+          <video>
+            <source src="wearing.mp4" type="video/mp4"/>
+          </video>
+        </div>
+        <div class="eat">
+          <video>
+            <source src="eating.mp4" type="video/mp4"/>
+          </video>
+        </div>
+      </div>
+
+      <!--battery-->
+      <img class="battery" src="battery.png" alt="drag">
+
+      <!--wearing and eating-->
+      <div class="nav">
+          <button class="next" id="cloth">Wear</button>
+          <button class="next" id="eating">Eat</button>
+          <button class="next" id="tomorrow">Next-day</button>
+      </div>
+    </div>
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</html>

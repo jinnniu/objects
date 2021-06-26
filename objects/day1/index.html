@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Strawberry jam</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>
+
+    <div id="bgmusic">
+      <audio id="bubble" src="How_to_make-BBC.mp3" loop=""></audio>
+      <button class="music">
+        <i class="play">></i>
+        <i class="pause">||</i>
+      </button>
+      <div class="ref" style="background-color: black; opacity: 0.8; padding: 5px; opacity: 0;"><a href="https://www.youtube.com/watch?v=4gql2HygmfU" style="color: white">Reference: How to make strawberry jam (by BBC)</a></div>
+    </div>
+
+    <img id="back" src="texture.gif">
+      
+    <div class="splitpane">
+      <div data-pane="b" class="pane pane-b" style="width: 35%">
+        <img src="jam3.png" alt="">
+      </div>
+      <div class="handle"></div>
+
+      <div class="vertical splitpane">
+          <div data-pane="c" class="pane pane-c" style="height: 20%">
+            <img src="jam2.png" alt="">
+          </div>
+          <div class="handle"></div>
+
+          <div class="vertical splitpane">
+              <div data-pane="a" class="pane pane-a" style="height: 50%">
+                <img src="jam1.png" alt="">
+              </div>
+              <div class="handle"></div>
+
+          <div class="splitpane">
+              <div data-pane="d" class="pane pane-d" style="width: 50%">
+                <img src="jam4.png" alt="">
+              </div>
+              <div class="handle"></div>
+                  <div data-pane="e" class="pane pane-e" style="height: 50%">
+                    <img src="jam5.png" alt="">
+                  </div>
+
+            </div>
+        </div>
+    </div>
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/splitpane.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</html>
